@@ -25,14 +25,17 @@ A clean, mobile-friendly weather application built with **Vue.js** and **Tailwin
 
 1. **Clone the repository**
 
-```bash
 git clone <repository-url>
-cd weather-app ```
+cd weather-app 
 
 2. Install dependencies
   - npm install
 
 
 3. Create .env file
-    Create a .env file in the project root and add your OpenWeather API key:
+    Create a .env file in the project root and add your OpenWeather API key: VITE_API_KEY=your_openweathermap_api_key_here
+
+4. Start the development server
+  -npm run dev
+    
 
