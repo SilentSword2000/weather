@@ -1,34 +1,38 @@
 # Weather App
 
-A mobile-friendly weather application built with **Vue.js** and **Tailwind CSS** that fetches current weather data from the OpenWeatherMap API and displays historical weather data with location and date filters. The app is designed to be extended with a Node.js + GraphQL backend for storing weather history.
+A clean, mobile-friendly weather application built with **Vue.js** and **Tailwind CSS** that fetches current weather data from the **OpenWeatherMap API** and displays historical weather data with filters. The backend (to be implemented) will use **Node.js**, **GraphQL**, and **MongoDB/PostgreSQL** to store and serve historical data.
 
 ---
 
-## Features
+## Tech Stack
 
-- Select a city to fetch and display current weather, including temperature, description, and icon.
-- View historical weather data with filters for location and date range (maximum 30 days).
-- Responsive, clean, and visually appealing UI using Tailwind CSS.
-- Input validation and error handling for a smooth user experience.
-
----
-
-## Technologies Used
-
-- Vue.js 3
-- Tailwind CSS
-- OpenWeatherMap API (free tier)
-- (Planned) Node.js, GraphQL, MongoDB/PostgreSQL for backend and persistence
+- Frontend: Vue.js 3, Tailwind CSS
+- Backend: Node.js, GraphQL (to be implemented)
+- Database: MongoDB/PostgreSQL (to be implemented)
+- Weather Data API: OpenWeatherMap API
 
 ---
 
-## Getting Started
+## Setup & Run Instructions
 
-Follow these steps to run the project locally:
+### Prerequisites
 
-### 1. Clone the repository
+- Node.js
+- npm or yarn package manager
+- OpenWeatherMap API key (free key available from https://openweathermap.org/api)
+
+### Steps
+
+1. **Clone the repository**
 
 ```bash
-git clone https://github.com/SilentSword2000/weather.git
-cd weather
+git clone <repository-url>
+cd weather-app
+
+2. Install dependencies
+  - npm install
+
+
+3. Create .env file
+    Create a .env file in the project root and add your OpenWeather API key:
 
