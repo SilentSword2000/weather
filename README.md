@@ -25,8 +25,8 @@ A clean, mobile-friendly weather application built with **Vue.js** and **Tailwin
 
 1. **Clone the repository**
 
-git clone <repository-url>
-cd weather-app 
+    git clone <repository-url>
+    cd weather-app 
 
 2. Install dependencies
   - npm install
